@@ -1,18 +1,11 @@
-import { useDispatch, useSelector } from "react-redux";
-import Action from "./Redux/Action";
+import Counter from "./Components/Counter/Counter";
+import Buttons from "./Components/Buttons/Buttons";
 
-function App() {
-  // useDispatch
-  let dispatch=useDispatch();
-    const increaseQty=async()=>{
-      await dispatch(Action())
-    }
-  // useSelector
-  let data=useSelector((state)=>state);  
+function App() {  
   return (
     <>
-      <h1>Counter:{data?.Count}</h1>
-      <button onClick={()=>increaseQty()}>+</button>
+      <Counter/>
+      <Buttons/>
     </>
   );
 }
