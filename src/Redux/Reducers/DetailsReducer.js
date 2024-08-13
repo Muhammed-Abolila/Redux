@@ -1,5 +1,5 @@
 let initialValue = {
-    Count: 0,
+    Count: 100,
   };
   const DetailsReducer = (state = initialValue, action) => {
     if (action.type == "INC") {
