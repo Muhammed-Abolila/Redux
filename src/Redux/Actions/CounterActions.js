@@ -1,5 +1,4 @@
 import { DEC, INC } from "../type";
-
 // Increase Counter
 export const IncreaseCounterAction = () => {
     return{

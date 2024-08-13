@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.user .user-container {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+  border: 1px solid #000;
+}
